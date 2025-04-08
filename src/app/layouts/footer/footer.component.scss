@@ -1,17 +1,14 @@
 footer {
-    background-color: var(--header-background);
-    color: var(--header-text-color);
-    padding: 1rem;
-    text-align: center;
-    border-top: 1px solid var(--link-color);
-  }
-  
-  footer nav a {
-    color: var(--link-color);
-    margin: 0 0.5rem;
-    text-decoration: none;
-  }
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--link-color);
+}
 
-  footer nav a:hover {
+footer nav a {
+  margin: 0 .5rem;
+  text-decoration: none;
+
+  &:hover {
     text-decoration: underline;
   }
+}

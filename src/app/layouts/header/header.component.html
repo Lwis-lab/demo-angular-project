@@ -1,6 +1,16 @@
 <header>
-    <nav>
-      <a routerLink="/" routerLinkActive="active">Home</a>
-      <a routerLink="/todo" routerLinkActive="active">Todo</a>
-    </nav>
-  </header>
+  <nav>
+    <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/todo" routerLinkActive="active">Todo</a>
+  </nav>
+  <div class="theme-toggle">
+    <label>
+      <input
+        type="checkbox"
+        [checked]="isDarkTheme()"
+        (change)="toggleTheme()"
+      />
+      Dark Mode
+    </label>
+  </div>
+</header>
