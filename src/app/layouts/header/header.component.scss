@@ -3,6 +3,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--footer-background);
+  color: var(--footer-text-color);
+  border-bottom: 1px solid var(--link-color);
 }
 
 nav a {
